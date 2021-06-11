@@ -1,0 +1,74 @@
+/*Set the HTML and body font size to 16px*/
+html{
+    font-size: 16px;
+
+}
+body {
+    font-size: 16px;
+}
+
+/*Give the paragraphs a font stack that includes: ‘Quattrocento’, Georgia, “Times New Roman” serif*/
+p {
+    /*Give the paragraph text to a weight of 400*/
+    font-weight:400;
+    font-family:‘Quattrocento’, Georgia, “Times New Roman” serif ;
+    line-height:1.4em;
+}
+
+/*Make the h1 uppercase, add a font-size of 3.052em, .5em word spacing, no margin, and center the text */
+h1{
+    font-weight:700;
+    font-family:‘Oswald’, Verdana, Arial, sans-serif ;
+    font-size:3.052em;
+    text-transform: uppercase;
+    word-spacing: .5em;
+    margin: 0;
+    text-align: center;
+}
+
+/*Give the h2 a font-size of 2.441em, .2em word spacing, no margin, align the text to the left, and a top padding of 15px */
+h2{
+    font-weight:500;
+    font-family:‘Oswald’, Verdana, Arial, sans-serif ;
+    font-size:2.441em;
+    padding: 15px;
+    word-spacing: .2em;
+    margin: 0;
+    text-align: left;
+}
+
+/*Give the address a font stack that includes ‘Quattrocento’, Georgia, “Times New Roman” serif and a a text alignment of center*/
+address{
+    font-family:‘Quattrocento’, Georgia, “Times New Roman” serif ;
+    text-align: center;
+}
+
+/*Make the website URL bold with a font-size of 1.25em, font color of #4F3674, and remove the underline*/
+a:link{
+    font-weight: bold;
+    font-size: 1.25em;
+    color:#4F3674;
+    text-decoration: none;
+
+}
+
+/*For the pseudo class “visited” select a styling of your choosing*/
+a:visited {
+    color: blue ;
+  }
+
+/*When a user hovers over the website link, apply an underline to the text and give it a background color of #D6A800;*/
+a:hover {
+    color: #D6A800 ;
+    text-decoration: underline;
+}
+
+/*Give the CSS “intro” class a text-indent of .2em, this style only applies to the first paragraph*/ 
+.intro {
+    text-indent: .2em;
+}
+
+/*Apply a font-style of italic to the CSS sentence class */
+.sentence{
+    font-style: italic;
+}
