@@ -1,0 +1,41 @@
+/*Set the bodies font-family to Oswald, Verdana, Arial, sans-serif*/
+body {
+    font-family: 'Oswald', Verdana, Arial, sans-serif ;
+}
+
+/*#container 
+Set the top margin to 50px
+Set the left margin to 100px
+Set the right margin to 100px*/
+#container{margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+
+}
+
+/*Set the h1, h2, h3, and h4 tags to a background color of 3c275a, a font color of #fff, a border of 1px solid and #D6A800, and padding of 10px*/
+h1, h2, h3, h4{
+    background-color: #3c275a;
+    color: #fff ;
+    border: 1px solid #D6A800;
+    padding: 10px;
+}
+
+/*Set the anchor tag to a color of 453674 and a text decoration of none*/
+a:link{
+    color:#453674;
+    text-decoration: none;
+
+}
+
+/*Set the anchor hover to a background color of D6A800 and a font color of 4F3674*/
+a:hover {
+    background-color: #D6A800 ;
+    color: #4f3674;
+    
+}
+
+/*Set the anchor visited to a font color of 3c275a*/
+a:visited {
+    color: #3c275a;
+  }
