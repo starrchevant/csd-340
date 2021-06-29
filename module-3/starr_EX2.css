@@ -11,14 +11,14 @@ body {
 p {
     /*Give the paragraph text to a weight of 400*/
     font-weight:400;
-    font-family:‘Quattrocento’, Georgia, “Times New Roman” serif ;
+    font-family:'Quattrocento', Georgia, "Times New Roman" serif ;
     line-height:1.4em;
 }
 
 /*Make the h1 uppercase, add a font-size of 3.052em, .5em word spacing, no margin, and center the text */
 h1{
     font-weight:700;
-    font-family:‘Oswald’, Verdana, Arial, sans-serif ;
+    font-family:'Oswald', Verdana, Arial, sans-serif ;
     font-size:3.052em;
     text-transform: uppercase;
     word-spacing: .5em;
@@ -29,7 +29,7 @@ h1{
 /*Give the h2 a font-size of 2.441em, .2em word spacing, no margin, align the text to the left, and a top padding of 15px */
 h2{
     font-weight:500;
-    font-family:‘Oswald’, Verdana, Arial, sans-serif ;
+    font-family:'Oswald', Verdana, Arial, sans-serif ;
     font-size:2.441em;
     padding: 15px;
     word-spacing: .2em;
@@ -39,7 +39,7 @@ h2{
 
 /*Give the address a font stack that includes ‘Quattrocento’, Georgia, “Times New Roman” serif and a a text alignment of center*/
 address{
-    font-family:‘Quattrocento’, Georgia, “Times New Roman” serif ;
+    font-family:'Quattrocento', Georgia, "Times New Roman" serif ;
     text-align: center;
 }
 
