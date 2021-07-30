@@ -1,0 +1,101 @@
+#hobbies {
+    margin: 2% 5% 2% 5%;
+    padding: 10px;
+    display: grid; 
+    grid-template-columns: 1fr 1fr  1fr;
+}
+
+#experience {
+    margin: 2% 5% 2% 5%;
+    padding: 10px;
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+img{
+    float: right;
+}
+
+html{
+    background: linear-gradient(#44595E, #9CCCD9);
+    height: 100%;
+    background-attachment: fixed;
+    color: white;
+    font-family: "Spartan", sans-serif;
+    font-weight: 300;
+
+}
+
+#titleText{
+    font-size: 54px;
+    
+}
+
+h1{
+    font-family: "Spartan", sans-serif;
+    font-weight: 500;
+}
+
+header{
+}
+
+.top{
+    grid-row: 1;
+}
+
+.bottom{
+    grid-row: 2;
+}
+
+.left{
+    grid-column: 1;
+}
+
+.right{
+    grid-column: 3;
+}
+
+.center{
+    grid-column: 2;
+}
+
+
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: 90%;
+    background-color: #BCF3F0;
+    color: #44595E;
+
+   
+}
+
+.card-title{
+    text-align: center;
+    font-size: 2em;
+    font-weight: 400;
+    margin: 10px;
+
+}
+
+.card-content{
+    padding: 2px 16px;
+    margin: 10px;
+}
+
+.card:hover{
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    
+}
+
+#contact{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    text-align: right;
+    width: 300px;
+    margin: 0px auto;
+    padding: 10px;
+    background-color: #4B6160;
+    color:white;
+
+}
